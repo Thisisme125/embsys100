@@ -8,6 +8,7 @@ The device has two primary functions:
 2.	Monitor blood sugar levels and use measurements as a feedback loop for insulin adjustment.
 
 The following explains how I believe the system works:
+
 Without the sensor for blood glucose measuring, the insulin pump serves as an alternative insulin delivering device to injections. There are two types of insulin delivery modes that the pump needs to deliver. The first mode is bolus, which is the amount of insulin it delivers after a meal. Bolus is calculated through the carb ratio to insulin ratio. This number is added in manually, so the microcontroller must do arithmetic in order to calculate the insulin it needs to deliver.
 
 The second type of delivery mode is basal, and that is the insulin the body needs every hour in order to keep the blood sugar levels produced by the body naturally down. This is delivered once every hour. So, there must be some sort of counter or time checking variable to test when an hour has passed and deliver insulin accordingly.
