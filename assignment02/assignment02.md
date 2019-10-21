@@ -1,12 +1,14 @@
-1) a) 536870912 in default view, 0x20000000 in hex view.
+1) a) -2147483648 in default view, 0x80000000 in hex view.
 
-   b) 0x20000000
+   b) 0x80000000
    
-   c) No flags are set. 0x20000000 is within the limits of the signed int, 2^32 bits. The addition of 1 did not cause the result to go to zero, or to change the sign bit, or to go to a value larger than 32 bit. 
+   c) Flags N and V are set to 1. The N flag is set because the arithmetic resulted in a negative number. For signed 32 bit, positive numbers range from 0x00000000 to 0x7FFFFFFF, and negative numbers range from 0x80000000 to 0xFFFFFFFF. Since we incremented 0x7FFFFFFF by 1, it resulted to 0x80000000 which is now in the negative range of the signed integer. Therefore, the N flag got set as it is a negative number. The overflow flag V is set if there is an error in signed arithmetic. It is set when the sum of two positive integers results in a negative, or the sum of two negative integers results in a positive. In this case, two positive numbers were added and it resulted to a negative number, so the overflow flag is set to catch this error.  
 
 2) a) Value goes to 0.
 
-   b) Flags Z and C are set to 1. The Z flag is set because the arithmetic resulted in zero. 0xFFFFFFFF in hex is -1. Adding 1 to that will result in 0 and setting the Z flag to 1. The compiler doesn't care if we are using unsigned or signed numbers, since they instruction is the same. So when we added 1 to 0xFFFFFFFF, it resulted to 0x00000000 and setting the carry bit. However, since we are working with a signed integer, we do not care about the carry bit.
+   b) Flags N and V are not set. The result is no longer negative, so the N flag is not set. The overflow flag V is not applicable to this arithmatec, as it will only set if there is an error adding two positive or two negative numbers. Since we are adding a negative and a positive number, the overflow flag will not be triggered. 
+
+Flags Z and C are set to 1. The Z flag is set because the arithmetic resulted in zero. 0xFFFFFFFF in hex is -1. Adding 1 to that will result in 0 and setting the Z flag to 1. The compiler doesn't care if we are using unsigned or signed numbers, since they instruction is the same. So when we added 1 to 0xFFFFFFFF, it resulted to 0x00000000 and it generated an arithmatic carry therefore setting the carry bit. However, since we are working with a signed integer, we do not care about the carry bit.
    
 3) a) 536870912 in default view, 0x20000000 in hex view.
 
