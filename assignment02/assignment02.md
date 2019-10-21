@@ -28,8 +28,8 @@
 
    b) Counter is stored globally, by default at memory 0x20000000, as seen on problem 5d. The initialized int pointer (*p_int) is pointing to the address of counter. When we increment the pointer using ++(*p_int) we are incrementing the data stored in the address of 0x20000000, which is the location for the variable counter. So using ++(*p_int) produces the same outcome as using counter++. Since we incremented the value 4 times, the value of counter changes from 0 to 4.
    
-7) a) 
+7) a) Counter is stored in 0x20000000.
 
-   b)
+   b) The counter variable is stored in the SRAM, which is a type of RAM.
   
-   c)
+   c) The value of counter at the end of the program is 4.
