@@ -1,5 +1,19 @@
 [
   {
+    "ID": "c:@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "5",
+      "line": "1",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment02\\Counter\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -14,16 +28,16 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@19@F@main@counter",
+    "ID": "c:main.c@37@F@main@p_int",
     "What": "Variable",
     "defdec": "Def",
-    "display": "counter",
+    "display": "p_int",
     "location": {
-      "column": "7",
+      "column": "8",
       "line": "4",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment02\\Counter\\main.c"
     },
-    "name": "counter",
+    "name": "p_int",
     "origin": "project_file",
     "scope": null
   }
