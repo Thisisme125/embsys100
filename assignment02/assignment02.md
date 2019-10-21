@@ -8,7 +8,7 @@
 
    b) Flags N and V are not set. The result is no longer negative, so the N flag is not set. The overflow flag V is not applicable to this arithmetic, as it will only set if there is an error adding two positive or two negative numbers. Since we are adding a negative and a positive number, the overflow flag will not be triggered. 
 
-Flags Z and C are set to 1. The Z flag is set because the arithmetic resulted in zero. 0xFFFFFFFF in signed hex is -1. Adding 1 to that will result in 0 and setting the Z flag to 1. The ALU doesn't care if we are using unsigned or signed numbers, since they instruction is the same. So when we added 1 to 0xFFFFFFFF, it resulted to 0x00000000 and it generated an arithmatic carry therefore setting the carry bit. However, since we are working with a signed integer, we do not care about the carry bit.
+   Flags Z and C are set to 1. The Z flag is set because the arithmetic resulted in zero. 0xFFFFFFFF in signed hex is -1. Adding 1 to that will result in 0 and setting the Z flag to 1. The ALU doesn't care if we are using unsigned or signed numbers, since they instruction is the same. So when we added 1 to 0xFFFFFFFF, it resulted to 0x00000000 and it generated an arithmatic carry therefore setting the carry bit. However, since we are working with a signed integer, we do not care about the carry bit.
    
 3) a) 2147483648 in default view, 0x80000000 in hex view.
 
