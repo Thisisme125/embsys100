@@ -76,7 +76,7 @@
     "display": "void LED_ON(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "16",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "LED_ON",
@@ -90,7 +90,7 @@
     "display": "void LED_OFF(void)",
     "location": {
       "column": "6",
-      "line": "18",
+      "line": "17",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "LED_OFF",
@@ -104,7 +104,7 @@
     "display": "void Blink_LED(int)",
     "location": {
       "column": "6",
-      "line": "19",
+      "line": "18",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "Blink_LED",
@@ -118,7 +118,7 @@
     "display": "void Space(int)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "19",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "Space",
@@ -132,7 +132,7 @@
     "display": "void BlinkName(void)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "20",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "BlinkName",
@@ -146,7 +146,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "28",
+      "line": "23",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "main",
@@ -160,7 +160,7 @@
     "display": "void LED_ON(void)",
     "location": {
       "column": "6",
-      "line": "49",
+      "line": "39",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "LED_ON",
@@ -174,7 +174,7 @@
     "display": "void LED_OFF(void)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "44",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "LED_OFF",
@@ -188,7 +188,7 @@
     "display": "void Blink_LED(int)",
     "location": {
       "column": "6",
-      "line": "59",
+      "line": "49",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "Blink_LED",
@@ -196,13 +196,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1351@F@Blink_LED@counter",
+    "ID": "c:main.c@1062@F@Blink_LED@counter",
     "What": "Variable",
     "defdec": "Def",
     "display": "counter",
     "location": {
       "column": "7",
-      "line": "61",
+      "line": "51",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "counter",
@@ -216,7 +216,7 @@
     "display": "void Space(int)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "90",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "Space",
@@ -224,13 +224,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1910@F@Space@counter",
+    "ID": "c:main.c@1621@F@Space@counter",
     "What": "Variable",
     "defdec": "Def",
     "display": "counter",
     "location": {
       "column": "7",
-      "line": "102",
+      "line": "92",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "counter",
@@ -238,13 +238,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1941@F@Space@x",
+    "ID": "c:main.c@1652@F@Space@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "14",
-      "line": "104",
+      "line": "94",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "x",
@@ -258,7 +258,7 @@
     "display": "void BlinkName(void)",
     "location": {
       "column": "6",
-      "line": "115",
+      "line": "105",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "BlinkName",
@@ -266,13 +266,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2173@F@BlinkName@Name",
+    "ID": "c:main.c@1884@F@BlinkName@Name",
     "What": "Variable",
     "defdec": "Def",
     "display": "Name",
     "location": {
       "column": "8",
-      "line": "118",
+      "line": "108",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "Name",
@@ -280,13 +280,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2318@F@BlinkName@i",
+    "ID": "c:main.c@2029@F@BlinkName@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "121",
+      "line": "111",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "i",
@@ -294,13 +294,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2356@F@BlinkName@j",
+    "ID": "c:main.c@2067@F@BlinkName@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
     "location": {
       "column": "14",
-      "line": "123",
+      "line": "113",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
     },
     "name": "j",

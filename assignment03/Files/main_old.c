@@ -9,6 +9,7 @@
     #define GPIOA_BASE 0x40020000 //base
     #define GPIOA_MODER (*((unsigned int*)GPIOA_BASE))
     #define GPIOA_ODR (*((unsigned int*)(GPIOA_BASE + 0x14))) //offset
+//  #define GPIOA_ODR (*((unsigned int*)0x40020014)) DOES NOT WORK
     //write 0x400 to MODER set GPIO PA5 as output
     //write 0x20 to ODR to turn on LED
     
@@ -19,9 +20,14 @@ void Blink_LED (int seconds);
 void Space (int seconds);
 void BlinkName();
 
+//Define global array to store Name
+//char Name[4][5] = {{'O','-','-','-','0'},{'M','-','-','0','0'},{'A','.','-','0','0'},{'R','.','-','.','0'}};
+
+
 //Main Function
 int main()
 {
+  
   //Enable RCC for AHB1
   RCC_AHB1ENR = 0x1;
     
@@ -30,6 +36,10 @@ int main()
 
   //Blink Omar in morse code
   BlinkName();
+//   Blink_LED(1);
+//   Space(1);
+//   Blink_LED(3);
+//  
   
   return 0;     
 }
@@ -121,8 +131,7 @@ void BlinkName()
     case '-':
       Blink_LED(3);
       break;
-    
-    //If character is 0, get out of loop and go to next letter  
+      
     case '0':
       j = 4;
       break; 
