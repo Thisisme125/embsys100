@@ -1,0 +1,310 @@
+[
+  {
+    "ID": "c:main.c@87@macro@RCC_AHB1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHB1",
+    "location": {
+      "column": "13",
+      "line": "4",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "RCC_AHB1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@128@macro@RCC_AHB1ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR",
+    "location": {
+      "column": "13",
+      "line": "5",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "RCC_AHB1ENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@291@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "13",
+      "line": "9",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@333@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "13",
+      "line": "10",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@389@macro@GPIOA_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "GPIOA_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_ON(void)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Blink_LED",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Blink_LED(int)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "Blink_LED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Space",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Space(int)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "Space",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BlinkName",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BlinkName(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "BlinkName",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "23",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_ON(void)",
+    "location": {
+      "column": "6",
+      "line": "39",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "44",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Blink_LED",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Blink_LED(int)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "Blink_LED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1062@F@Blink_LED@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "7",
+      "line": "51",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Space",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Space(int)",
+    "location": {
+      "column": "6",
+      "line": "90",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "Space",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1621@F@Space@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "7",
+      "line": "92",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1652@F@Space@x",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x",
+    "location": {
+      "column": "14",
+      "line": "94",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "x",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BlinkName",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BlinkName(void)",
+    "location": {
+      "column": "6",
+      "line": "105",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "BlinkName",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1884@F@BlinkName@Name",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Name",
+    "location": {
+      "column": "8",
+      "line": "108",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "Name",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2029@F@BlinkName@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "12",
+      "line": "111",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2067@F@BlinkName@j",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "j",
+    "location": {
+      "column": "14",
+      "line": "113",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment03\\Morse_Code\\main.c"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  }
+]
