@@ -1,0 +1,174 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  27/Oct/2019  22:15:13
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\thisi\Documents\GitHub\embsys100\assignment03\Morse_Code\Debug\Exe\Morse_Code.out
+#    Map file     =
+#        C:\Users\thisi\Documents\GitHub\embsys100\assignment03\Morse_Code\Debug\List\Morse_Code.map
+#    Command line =
+#        -f C:\Users\thisi\AppData\Local\Temp\EWDEAD.tmp
+#        (C:\Users\thisi\Documents\GitHub\embsys100\assignment03\Morse_Code\Debug\Obj\main.o
+#        --no_out_extension -o
+#        C:\Users\thisi\Documents\GitHub\embsys100\assignment03\Morse_Code\Debug\Exe\Morse_Code.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Users\thisi\Documents\GitHub\embsys100\assignment03\Morse_Code\Debug\List\Morse_Code.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\config\linker\ST\stm32f401xE.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x40
+  .intvec   ro code   0x800'0000    0x40  vector_table_M.o [3]
+                    - 0x800'0040    0x40
+
+"P1":                              0x1d4
+  .text     ro code   0x800'0040   0x114  main.o [1]
+  .text     ro code   0x800'0154    0x56  ABImemcpy_unaligned.o [3]
+  .text     ro code   0x800'01aa     0x2  vector_table_M.o [3]
+  .text     ro code   0x800'01ac    0x1e  cmain.o [3]
+  .text     ro code   0x800'01ca     0x4  low_level_init.o [2]
+  .text     ro code   0x800'01ce     0x4  exit.o [2]
+  .text     ro code   0x800'01d4     0xa  cexit.o [3]
+  .text     ro code   0x800'01e0    0x14  exit.o [4]
+  .rodata   const     0x800'01f4    0x14  main.o [1]
+  .text     ro code   0x800'0208     0xc  cstartup_M.o [3]
+                    - 0x800'0214   0x1d4
+
+"P2":                             0x2000
+  CSTACK             0x2000'0000  0x2000  <Block>
+    CSTACK  uninit   0x2000'0000  0x2000  <Block tail>
+                   - 0x2000'2000  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0214   0x807'ffff  0x7'fdec
+  0x2000'2000  0x2001'7fff  0x1'6000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+C:\Users\thisi\Documents\GitHub\embsys100\assignment03\Morse_Code\Debug\Obj: [1]
+    main.o                     276       20
+    ------------------------------------------------
+    Total:                     276       20
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [3]
+    ABImemcpy_unaligned.o       86
+    cexit.o                     10
+    cmain.o                     30
+    cstartup_M.o                12
+    vector_table_M.o            66
+    ------------------------------------------------
+    Total:                     204
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4
+    Linker created                             8'192
+----------------------------------------------------
+    Grand Total:               512       20    8'192
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+?main                    0x800'01ad        Code  Gb  cmain.o [3]
+BlinkName                0x800'00df  0x5c  Code  Gb  main.o [1]
+Blink_LED                0x800'0073  0x50  Code  Gb  main.o [1]
+CSTACK$$Base            0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2000         --   Gb  - Linker created -
+LED_OFF                  0x800'0067   0xc  Code  Gb  main.o [1]
+LED_ON                   0x800'005b   0xc  Code  Gb  main.o [1]
+Region$$Table$$Base             0x0         --   Gb  - Linker created -
+Region$$Table$$Limit            0x0         --   Gb  - Linker created -
+Space                    0x800'00c3  0x1c  Code  Gb  main.o [1]
+__cmain                  0x800'01ad        Code  Gb  cmain.o [3]
+__exit                   0x800'01e1  0x14  Code  Gb  exit.o [4]
+__iar_program_start      0x800'0209        Code  Gb  cstartup_M.o [3]
+__iar_unaligned_memcpy4
+                         0x800'0155        Code  Gb  ABImemcpy_unaligned.o [3]
+__iar_unaligned_memcpy8
+                         0x800'0155        Code  Gb  ABImemcpy_unaligned.o [3]
+__low_level_init         0x800'01cb   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [3]
+_call_main               0x800'01b9        Code  Gb  cmain.o [3]
+_exit                    0x800'01d5        Code  Gb  cexit.o [3]
+_main                    0x800'01c7        Code  Gb  cmain.o [3]
+exit                     0x800'01cf   0x4  Code  Gb  exit.o [2]
+main                     0x800'0041  0x1a  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\thisi\Documents\GitHub\embsys100\assignment03\Morse_Code\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    512 bytes of readonly  code memory
+     20 bytes of readonly  data memory
+  8'192 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -11,20 +11,20 @@ volatile long long counter = 0;
 
 int main()
 {
+//  (*p)++;
+//  (*p)++;
  
 //  int* p = &counter;
 //  (*p)++;
-//  (*p)++;
-//  (*p)++;
-//  (*p)++;
-//  (*p)++;
-//  (*p)++;
-//  (*p)++;
-//  (*p)++;
-//  (*p)++;
-//  (*p)++;
   
 //  p = (int*)0x20000002;
+//  (*p)++;
+//  (*p)++;
+//  (*p)++;
+//  (*p)++;
+//  (*p)++;
+//  (*p)++;
+//  (*p)++;
 //  (*p) = 0xDEADBEEF;
   
   // 1. Enable clock to peripheral
@@ -36,24 +36,24 @@ int main()
 //  // 3. Write 1 or 0 to turn ON/OFF LED
 //  *((unsigned int*)0x40020014) = 0xA8000020;
 //  *((unsigned int*)0x40020014) = 0xA8000000;
-    while(1)
-    {
-      counter = 0;
-      while (counter < 800000)
-      {
-        counter++;
-      }
+//    while(1)
+//    {
+//      counter = 0;
+//      while (counter < 800000)
+//      {
+//        counter++;
+//      }
         
     
     GPIOA_ODR = 0xA8000020;
-     counter = 0;
-     while (counter < 800000)
-     {
-       counter ++;
-     }
+//     counter = 0;
+//     while (counter < 800000)
+//     {
+//       counter ++;
+//     }
     GPIOA_ODR = 0xA8000000;
-    counter  = 0;
-    }
+//    counter  = 0;
+//    }
   return 0;
 }
 
