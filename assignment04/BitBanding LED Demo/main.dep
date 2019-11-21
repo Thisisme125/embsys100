@@ -7,7 +7,6 @@
         <outputs>
             <file>$PROJ_DIR$\Debug\Exe\main.out</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
@@ -16,13 +15,14 @@
             <file>$PROJ_DIR$\Debug\List\main.map</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f401xE.icf</file>
             <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0 8</file>
+                    <file> 0 7</file>
                 </tool>
             </outputs>
         </file>
@@ -31,13 +31,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8</file>
+                    <file> 7</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 9 2 5 6 1 3</file>
+                    <file> 8 10 4 5 1 2</file>
                 </tool>
             </inputs>
         </file>
@@ -46,11 +46,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 10</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 10</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
         </file>
