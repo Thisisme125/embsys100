@@ -146,7 +146,7 @@
                     <item>RCC_AHB1ENR</item>
                     <item>GPIOA_MODER</item>
                     <item>GPIOA_ODR</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

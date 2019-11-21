@@ -3,8 +3,5 @@
     <project>
         <path>$WS_DIR$\LED_Blink.ewp</path>
     </project>
-    <project>
-        <path>$WS_DIR$\..\..\assignment03\Morse_Code\Morse_Code.ewp</path>
-    </project>
     <batchBuild />
 </workspace>

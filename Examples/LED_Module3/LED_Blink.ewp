@@ -2106,4 +2106,7 @@
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
+    <file>
+        <name>$PROJ_DIR$\..\Demo04_Blinking_LED_05\main_bit_band.c</name>
+    </file>
 </project>

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  23/Oct/2019  17:52:10
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  19/Nov/2019  23:43:01
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
@@ -8,8 +8,9 @@
 #    Map file     =
 #        C:\Users\thisi\Documents\GitHub\embsys100\Examples\LED_Module3\Debug\List\LED_Blink.map
 #    Command line =
-#        -f C:\Users\thisi\AppData\Local\Temp\EW994E.tmp
+#        -f C:\Users\thisi\AppData\Local\Temp\EW8488.tmp
 #        (C:\Users\thisi\Documents\GitHub\embsys100\Examples\LED_Module3\Debug\Obj\main.o
+#        C:\Users\thisi\Documents\GitHub\embsys100\Examples\LED_Module3\Debug\Obj\main_bit_band.o
 #        --no_out_extension -o
 #        C:\Users\thisi\Documents\GitHub\embsys100\Examples\LED_Module3\Debug\Exe\LED_Blink.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
@@ -20,6 +21,16 @@
 #        __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Error[Li006]: duplicate definitions for "main"; in "C:\Users\thisi\Documents\Gi
+          tHub\embsys100\Examples\LED_Module3\Debug\Obj\main.o"
+          , and "C:\Users\thisi\Documents\GitHub\embsys100\Examples\LED_Module3
+          \Debug\Obj\main_bit_band.o"
+
 
 *******************************************************************************
 *** RUNTIME MODEL ATTRIBUTES
@@ -157,5 +168,5 @@ main                   0x800'0041  0x30  Code  Gb  main.o [1]
     196 bytes of readonly  code memory
   8'192 bytes of readwrite data memory
 
-Errors: none
+Errors: 1
 Warnings: none
