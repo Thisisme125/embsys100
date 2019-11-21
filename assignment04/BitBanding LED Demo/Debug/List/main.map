@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  20/Nov/2019  23:36:23
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  21/Nov/2019  00:13:47
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
@@ -10,7 +10,7 @@
 #        C:\Users\thisi\Documents\GitHub\embsys100\assignment04\BitBanding LED
 #        Demo\Debug\List\main.map
 #    Command line =
-#        -f C:\Users\thisi\AppData\Local\Temp\EWCB68.tmp
+#        -f C:\Users\thisi\AppData\Local\Temp\EW898.tmp
 #        ("C:\Users\thisi\Documents\GitHub\embsys100\assignment04\BitBanding
 #        LED Demo\Debug\Obj\main.o" --no_out_extension -o
 #        "C:\Users\thisi\Documents\GitHub\embsys100\assignment04\BitBanding LED
@@ -58,21 +58,21 @@ define block HEAP with size = 8K, alignment = 8 { };
   .intvec          ro code   0x800'0000    0x40  vector_table_M.o [4]
                            - 0x800'0040    0x40
 
-"P1":                                     0x148
-  .text            ro code   0x800'0040    0x5c  main.o [1]
-  .text            ro code   0x800'009c    0x3a  zero_init3.o [4]
-  .text            ro code   0x800'00d6     0x2  vector_table_M.o [4]
-  .text            ro code   0x800'00d8    0x28  data_init.o [4]
-  .text            ro code   0x800'0100    0x22  fpinit_M.o [3]
-  .iar.init_table  const     0x800'0124    0x10  - Linker created -
-  .text            ro code   0x800'0134    0x1e  cmain.o [4]
-  .text            ro code   0x800'0152     0x4  low_level_init.o [2]
-  .text            ro code   0x800'0156     0x4  exit.o [2]
-  .text            ro code   0x800'015c     0xa  cexit.o [4]
-  .text            ro code   0x800'0168    0x14  exit.o [5]
-  .text            ro code   0x800'017c     0xc  cstartup_M.o [4]
-  .rodata          const     0x800'0188     0x0  zero_init3.o [4]
-                           - 0x800'0188   0x148
+"P1":                                     0x144
+  .text            ro code   0x800'0040    0x58  main.o [1]
+  .text            ro code   0x800'0098    0x3a  zero_init3.o [4]
+  .text            ro code   0x800'00d2     0x2  vector_table_M.o [4]
+  .text            ro code   0x800'00d4    0x28  data_init.o [4]
+  .text            ro code   0x800'00fc    0x22  fpinit_M.o [3]
+  .iar.init_table  const     0x800'0120    0x10  - Linker created -
+  .text            ro code   0x800'0130    0x1e  cmain.o [4]
+  .text            ro code   0x800'014e     0x4  low_level_init.o [2]
+  .text            ro code   0x800'0152     0x4  exit.o [2]
+  .text            ro code   0x800'0158     0xa  cexit.o [4]
+  .text            ro code   0x800'0164    0x14  exit.o [5]
+  .text            ro code   0x800'0178     0xc  cstartup_M.o [4]
+  .rodata          const     0x800'0184     0x0  zero_init3.o [4]
+                           - 0x800'0184   0x144
 
 "P2", part 1 of 2:                          0x4
   .bss             zero     0x2000'0000     0x4  main.o [1]
@@ -87,7 +87,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'0188   0x807'ffff  0x7'fe78
+   0x800'0184   0x807'ffff  0x7'fe7c
   0x2000'0004  0x2000'0007       0x4
   0x2000'2008  0x2001'7fff  0x1'5ff8
 
@@ -115,9 +115,9 @@ command line/config:
     Total:
 
 C:\Users\thisi\Documents\GitHub\embsys100\assignment04\BitBanding LED Demo\Debug\Obj: [1]
-    main.o                 92                 4
+    main.o                 88                 4
     -------------------------------------------
-    Total:                 92                 4
+    Total:                 88                 4
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -148,7 +148,7 @@ shb_l.a: [5]
     Gaps                    4        2
     Linker created                  16    8'192
 -----------------------------------------------
-    Grand Total:          374       18    8'196
+    Grand Total:          370       18    8'196
 
 
 *******************************************************************************
@@ -157,27 +157,27 @@ shb_l.a: [5]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-.iar.init_table$$Base    0x800'0124         --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'0134         --   Gb  - Linker created -
-?main                    0x800'0135        Code  Gb  cmain.o [4]
+.iar.init_table$$Base    0x800'0120         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0130         --   Gb  - Linker created -
+?main                    0x800'0131        Code  Gb  cmain.o [4]
 CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
-Region$$Table$$Base      0x800'0124         --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'0134         --   Gb  - Linker created -
-__cmain                  0x800'0135        Code  Gb  cmain.o [4]
-__exit                   0x800'0169  0x14  Code  Gb  exit.o [5]
-__iar_data_init3         0x800'00d9  0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp           0x800'0101        Code  Gb  fpinit_M.o [3]
-__iar_program_start      0x800'017d        Code  Gb  cstartup_M.o [4]
-__iar_zero_init3         0x800'009d  0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init         0x800'0153   0x4  Code  Gb  low_level_init.o [2]
+Region$$Table$$Base      0x800'0120         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0130         --   Gb  - Linker created -
+__cmain                  0x800'0131        Code  Gb  cmain.o [4]
+__exit                   0x800'0165  0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'00d5  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'00fd        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'0179        Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'0099  0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'014f   0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000        Data  Gb  vector_table_M.o [4]
-_call_main               0x800'0141        Code  Gb  cmain.o [4]
-_exit                    0x800'015d        Code  Gb  cexit.o [4]
-_main                    0x800'014f        Code  Gb  cmain.o [4]
+_call_main               0x800'013d        Code  Gb  cmain.o [4]
+_exit                    0x800'0159        Code  Gb  cexit.o [4]
+_main                    0x800'014b        Code  Gb  cmain.o [4]
 counter                 0x2000'0000   0x4  Data  Gb  main.o [1]
-exit                     0x800'0157   0x4  Code  Gb  exit.o [2]
-main                     0x800'0041  0x5c  Code  Gb  main.o [1]
+exit                     0x800'0153   0x4  Code  Gb  exit.o [2]
+main                     0x800'0041  0x58  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\thisi\Documents\GitHub\embsys100\assignment04\BitBanding LED Demo\Debug\Obj
@@ -186,7 +186,7 @@ main                     0x800'0041  0x5c  Code  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-    374 bytes of readonly  code memory
+    370 bytes of readonly  code memory
      18 bytes of readonly  data memory
   8'196 bytes of readwrite data memory
 
