@@ -84,35 +84,35 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@299@macro@bit_band_base",
+    "ID": "c:main.c@299@macro@BASE_BitBand_Address",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "bit_band_base",
+    "display": "BASE_BitBand_Address",
     "location": {
       "column": "9",
       "line": "11",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\BitBanding LED Demo\\main.c"
     },
-    "name": "bit_band_base",
+    "name": "BASE_BitBand_Address",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@333@macro@byte_offset",
+    "ID": "c:main.c@340@macro@RCC_byte_offset",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "byte_offset",
+    "display": "RCC_byte_offset",
     "location": {
       "column": "9",
       "line": "12",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\BitBanding LED Demo\\main.c"
     },
-    "name": "byte_offset",
+    "name": "RCC_byte_offset",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@362@macro@enable_clock_bit",
+    "ID": "c:main.c@373@macro@enable_clock_bit",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "enable_clock_bit",
@@ -126,13 +126,55 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@401@macro@GPIOA_byte_offset",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_byte_offset",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\BitBanding LED Demo\\main.c"
+    },
+    "name": "GPIOA_byte_offset",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@436@macro@ENABLE_PORT5_bit10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ENABLE_PORT5_bit10",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\BitBanding LED Demo\\main.c"
+    },
+    "name": "ENABLE_PORT5_bit10",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@467@macro@ENABLE_PORT5_bit11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ENABLE_PORT5_bit11",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\BitBanding LED Demo\\main.c"
+    },
+    "name": "ENABLE_PORT5_bit11",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@counter",
     "What": "Variable",
     "defdec": "Def",
     "display": "counter",
     "location": {
       "column": "14",
-      "line": "15",
+      "line": "17",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\BitBanding LED Demo\\main.c"
     },
     "name": "counter",
@@ -146,7 +188,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "19",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\BitBanding LED Demo\\main.c"
     },
     "name": "main",
