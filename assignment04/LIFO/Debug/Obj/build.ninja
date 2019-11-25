@@ -1,4 +1,4 @@
-#Generating source browse information for project fifo_implementation
+#Generating source browse information for project LIFO
 
 
 #Abbreviations
@@ -21,7 +21,8 @@ rule browsedata
 
 #Build steps
 build main.pbi : index main.xcl
-build fifo_implementation.pbd : link main.pbi
-build fifo_implementation.pbw : browsedata fifo_implementation.pbd
+build stack.pbi : index stack.xcl
+build LIFO.pbd : link main.pbi stack.pbi
+build LIFO.pbw : browsedata LIFO.pbd
 
 
