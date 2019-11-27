@@ -2,9 +2,9 @@
 #include <assert.h>
 #include "stack.h"
 
-
 int main()
 {
+
     int testint;
     // Arrange:
     queue_init();

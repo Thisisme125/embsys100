@@ -2210,7 +2210,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "6",
+      "line": "5",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\main.c"
     },
     "name": "main",

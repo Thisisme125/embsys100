@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>118816160</Checksum>
+        <Checksum>1606604430</Checksum>
     </DebugChecksum>
     <Disassembly>
         <InstrCount>0</InstrCount>
@@ -53,7 +53,9 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Count>0</Count>
+        <Bp0>_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.10.5" 0 0 1 "" 0 ""</Bp0>
+        <Bp1>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.14.16" 0 0 1 "" 0 ""</Bp1>
+        <Count>2</Count>
     </Breakpoints2>
     <Interrupts>
         <Enabled>1</Enabled>
