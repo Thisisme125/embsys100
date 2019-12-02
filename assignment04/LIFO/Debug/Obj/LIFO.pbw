@@ -1,5 +1,173 @@
 [
   {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "5",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@115@F@main@testint",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "testint",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\main.c"
+    },
+    "name": "testint",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@133@F@main@result1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "result1",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\main.c"
+    },
+    "name": "result1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@151@F@main@result2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "result2",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\main.c"
+    },
+    "name": "result2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:assert.h@1249@macro@static_assert",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "static_assert",
+    "location": {
+      "column": "11",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "static_assert",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__aeabi_assert",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __aeabi_assert(const char *, const char *, int)",
+    "location": {
+      "column": "23",
+      "line": "44",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "__aeabi_assert",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_ReportAssert",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int __iar_ReportAssert(const char *, const char *, const char *, const char *)",
+    "location": {
+      "column": "21",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "__iar_ReportAssert",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_EmptyStepPoint",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_EmptyStepPoint(void)",
+    "location": {
+      "column": "21",
+      "line": "53",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "__iar_EmptyStepPoint",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:assert.h@2057@macro@_STEPPOINT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STEPPOINT",
+    "location": {
+      "column": "13",
+      "line": "64",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "_STEPPOINT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:assert.h@2171@macro@__FUNC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__FUNC",
+    "location": {
+      "column": "13",
+      "line": "70",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "__FUNC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:assert.h@2233@macro@__CALL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__CALL",
+    "location": {
+      "column": "13",
+      "line": "74",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "__CALL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:assert.h@2638@macro@assert",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "assert",
+    "location": {
+      "column": "13",
+      "line": "86",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
+    },
+    "name": "assert",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:yvals.h@120@macro@_YVALS",
     "What": "MacroDef",
     "defdec": "Def",
@@ -1714,6 +1882,62 @@
     "scope": null
   },
   {
+    "ID": "c:stack.h@111@macro@__QUEUE_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__QUEUE_H__",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
+    },
+    "name": "__QUEUE_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@queue_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void queue_init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
+    },
+    "name": "queue_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@queue_put",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int queue_put(int)",
+    "location": {
+      "column": "5",
+      "line": "6",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
+    },
+    "name": "queue_put",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@queue_get",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int queue_get(int *)",
+    "location": {
+      "column": "5",
+      "line": "7",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
+    },
+    "name": "queue_get",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -2078,118 +2302,6 @@
     "scope": null
   },
   {
-    "ID": "c:assert.h@1249@macro@static_assert",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "static_assert",
-    "location": {
-      "column": "11",
-      "line": "38",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "static_assert",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__aeabi_assert",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __aeabi_assert(const char *, const char *, int)",
-    "location": {
-      "column": "23",
-      "line": "44",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "__aeabi_assert",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_ReportAssert",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int __iar_ReportAssert(const char *, const char *, const char *, const char *)",
-    "location": {
-      "column": "21",
-      "line": "50",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "__iar_ReportAssert",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_EmptyStepPoint",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_EmptyStepPoint(void)",
-    "location": {
-      "column": "21",
-      "line": "53",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "__iar_EmptyStepPoint",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:assert.h@2057@macro@_STEPPOINT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STEPPOINT",
-    "location": {
-      "column": "13",
-      "line": "64",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "_STEPPOINT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:assert.h@2171@macro@__FUNC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__FUNC",
-    "location": {
-      "column": "13",
-      "line": "70",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "__FUNC",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:assert.h@2233@macro@__CALL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__CALL",
-    "location": {
-      "column": "13",
-      "line": "74",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "__CALL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:assert.h@2638@macro@assert",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "assert",
-    "location": {
-      "column": "13",
-      "line": "86",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\assert.h"
-    },
-    "name": "assert",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:ycheck.h@1402@macro@__AEABI_PORTABILITY_INTERNAL_LEVEL",
     "What": "MacroDef",
     "defdec": "Def",
@@ -2201,34 +2313,6 @@
     },
     "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
     "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
-    "location": {
-      "column": "5",
-      "line": "5",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@115@F@main@testint",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "testint",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\main.c"
-    },
-    "name": "testint",
-    "origin": "project_file",
     "scope": null
   },
   {
@@ -2246,69 +2330,13 @@
     "scope": null
   },
   {
-    "ID": "c:stack.h@111@macro@__QUEUE_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__QUEUE_H__",
-    "location": {
-      "column": "9",
-      "line": "3",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
-    },
-    "name": "__QUEUE_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@queue_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void queue_init(void)",
-    "location": {
-      "column": "6",
-      "line": "5",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
-    },
-    "name": "queue_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@queue_put",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int queue_put(int)",
-    "location": {
-      "column": "5",
-      "line": "6",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
-    },
-    "name": "queue_put",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@queue_get",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int queue_get(int *)",
-    "location": {
-      "column": "5",
-      "line": "7",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.h"
-    },
-    "name": "queue_get",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stack.c@29@macro@QUEUE_SIZE",
+    "ID": "c:stack.c@55@macro@QUEUE_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "QUEUE_SIZE",
     "location": {
       "column": "9",
-      "line": "2",
+      "line": "4",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "QUEUE_SIZE",
@@ -2322,7 +2350,7 @@
     "display": "QueueStore",
     "location": {
       "column": "5",
-      "line": "5",
+      "line": "7",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "QueueStore",
@@ -2336,7 +2364,7 @@
     "display": "putPtr",
     "location": {
       "column": "6",
-      "line": "8",
+      "line": "10",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "putPtr",
@@ -2350,7 +2378,7 @@
     "display": "getPtr",
     "location": {
       "column": "6",
-      "line": "9",
+      "line": "11",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "getPtr",
@@ -2364,7 +2392,7 @@
     "display": "void queue_init(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "15",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "queue_init",
@@ -2372,13 +2400,13 @@
     "scope": null
   },
   {
-    "ID": "c:stack.c@286@F@queue_init@x",
+    "ID": "c:stack.c@312@F@queue_init@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "14",
-      "line": "18",
+      "line": "20",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "x",
@@ -2392,7 +2420,7 @@
     "display": "int queue_put(int)",
     "location": {
       "column": "5",
-      "line": "27",
+      "line": "29",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "queue_put",
@@ -2406,7 +2434,7 @@
     "display": "int queue_get(int *)",
     "location": {
       "column": "5",
-      "line": "44",
+      "line": "67",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment04\\LIFO\\stack.c"
     },
     "name": "queue_get",

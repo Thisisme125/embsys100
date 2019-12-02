@@ -143,7 +143,7 @@
                     <item>myString</item>
                     <item>myIntPtr</item>
                     <item>sizeof(myIntArray)/sizeof(myIntArray[0])</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

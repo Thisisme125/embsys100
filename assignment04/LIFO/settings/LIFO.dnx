@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>1606604430</Checksum>
+        <Checksum>212590921</Checksum>
     </DebugChecksum>
     <Disassembly>
         <InstrCount>0</InstrCount>
@@ -34,39 +34,6 @@
     <CallStack>
         <ShowArgs>0</ShowArgs>
     </CallStack>
-    <InterruptLog>
-        <LogEnabled>0</LogEnabled>
-        <GraphEnabled>0</GraphEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-        <SumEnabled>0</SumEnabled>
-        <ShowTimeSum>1</ShowTimeSum>
-        <SumSortOrder>0</SumSortOrder>
-    </InterruptLog>
-    <DataLog>
-        <LogEnabled>0</LogEnabled>
-        <GraphEnabled>0</GraphEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-        <SumEnabled>0</SumEnabled>
-        <ShowTimeSum>1</ShowTimeSum>
-    </DataLog>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints2>
-        <Bp0>_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.10.5" 0 0 1 "" 0 ""</Bp0>
-        <Bp1>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.14.16" 0 0 1 "" 0 ""</Bp1>
-        <Count>2</Count>
-    </Breakpoints2>
-    <Interrupts>
-        <Enabled>1</Enabled>
-    </Interrupts>
-    <MemConfig>
-        <Base>1</Base>
-        <Manual>0</Manual>
-        <Ddf>1</Ddf>
-        <TypeViol>0</TypeViol>
-        <Stop>1</Stop>
-    </MemConfig>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -88,6 +55,40 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.145.5" 0 0 1 "" 0 ""</Bp0>
+        <Bp1>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.227.5" 0 0 1 "" 0 ""</Bp1>
+        <Bp2>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.201.5" 0 0 1 "" 0 ""</Bp2>
+        <Count>3</Count>
+    </Breakpoints2>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
