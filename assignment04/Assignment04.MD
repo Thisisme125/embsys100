@@ -11,4 +11,3 @@
    
    d) The PUSH/POP instruction includes 2 registers now, R4 and R5, instead of just R4. An extra memory location is used in the stack.
    
- 3. 
