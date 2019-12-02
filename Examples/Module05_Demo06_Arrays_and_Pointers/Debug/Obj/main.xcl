@@ -1,14 +1,14 @@
-"C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU19_Tamer\workspace\Module05_Demo06_Arrays_and_Pointers\main.c"
+"C:\Users\thisi\Documents\GitHub\embsys100\Examples\Module05_Demo06_Arrays_and_Pointers\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU19_Tamer\workspace\Module05_Demo06_Arrays_and_Pointers\Debug\Obj\main.pbi.dep
+C:\Users\thisi\Documents\GitHub\embsys100\Examples\Module05_Demo06_Arrays_and_Pointers\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU19_Tamer\workspace\Module05_Demo06_Arrays_and_Pointers
+C:\Users\thisi\Documents\GitHub\embsys100\Examples\Module05_Demo06_Arrays_and_Pointers
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I

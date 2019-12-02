@@ -144,7 +144,7 @@
                     <item>getPtr</item>
                     <item>QueueStore</item>
                     <item>testChar</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

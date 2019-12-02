@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU19_Tamer\workspace\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.general.xcl" --backend -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU19_Tamer\workspace\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\thisi\Documents\GitHub\embsys100\Examples\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.general.xcl" --backend -f "C:\Users\thisi\Documents\GitHub\embsys100\Examples\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU19_Tamer\workspace\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU19_Tamer\workspace\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\thisi\Documents\GitHub\embsys100\Examples\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\thisi\Documents\GitHub\embsys100\Examples\Module05_Demo06_Arrays_and_Pointers\settings\main.Debug.driver.xcl" 
 }

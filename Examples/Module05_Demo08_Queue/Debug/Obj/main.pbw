@@ -7,7 +7,7 @@
     "location": {
       "column": "5",
       "line": "4",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\main.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\main.c"
     },
     "name": "main",
     "origin": "project_file",
@@ -21,7 +21,7 @@
     "location": {
       "column": "9",
       "line": "6",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\main.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\main.c"
     },
     "name": "result1",
     "origin": "project_file",
@@ -35,7 +35,7 @@
     "location": {
       "column": "9",
       "line": "7",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\main.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\main.c"
     },
     "name": "result2",
     "origin": "project_file",
@@ -49,7 +49,7 @@
     "location": {
       "column": "10",
       "line": "8",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\main.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\main.c"
     },
     "name": "testChar",
     "origin": "project_file",
@@ -1861,7 +1861,7 @@
     "location": {
       "column": "9",
       "line": "3",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.h"
     },
     "name": "__QUEUE_H__",
     "origin": "user_include",
@@ -1875,7 +1875,7 @@
     "location": {
       "column": "6",
       "line": "5",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.h"
     },
     "name": "queue_init",
     "origin": "user_include",
@@ -1889,7 +1889,7 @@
     "location": {
       "column": "6",
       "line": "5",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.h"
     },
     "name": "queue_init",
     "origin": "user_include",
@@ -1903,7 +1903,7 @@
     "location": {
       "column": "5",
       "line": "6",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.h"
     },
     "name": "queue_put",
     "origin": "user_include",
@@ -1917,7 +1917,7 @@
     "location": {
       "column": "5",
       "line": "6",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.h"
     },
     "name": "queue_put",
     "origin": "user_include",
@@ -1931,7 +1931,7 @@
     "location": {
       "column": "5",
       "line": "7",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.h"
     },
     "name": "queue_get",
     "origin": "user_include",
@@ -1945,7 +1945,7 @@
     "location": {
       "column": "5",
       "line": "7",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.h"
     },
     "name": "queue_get",
     "origin": "user_include",
@@ -2379,7 +2379,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "QUEUE_SIZE",
     "origin": "project_file",
@@ -2393,7 +2393,7 @@
     "location": {
       "column": "6",
       "line": "5",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "QueueStore",
     "origin": "project_file",
@@ -2407,7 +2407,7 @@
     "location": {
       "column": "7",
       "line": "8",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "putPtr",
     "origin": "project_file",
@@ -2421,7 +2421,7 @@
     "location": {
       "column": "7",
       "line": "9",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "getPtr",
     "origin": "project_file",
@@ -2435,7 +2435,7 @@
     "location": {
       "column": "6",
       "line": "15",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "queue_init",
     "origin": "project_file",
@@ -2449,7 +2449,7 @@
     "location": {
       "column": "13",
       "line": "19",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -2463,7 +2463,7 @@
     "location": {
       "column": "5",
       "line": "28",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "queue_put",
     "origin": "project_file",
@@ -2477,7 +2477,7 @@
     "location": {
       "column": "5",
       "line": "63",
-      "path": "C:\\Users\\tameraw\\OneDrive\\Documents\\Education\\UW_Embedded_Certificate\\01_EMBSYS100B_AU19_Tamer\\workspace\\Module05_Demo08_Queue\\queue.c"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\Examples\\Module05_Demo08_Queue\\queue.c"
     },
     "name": "queue_get",
     "origin": "project_file",
