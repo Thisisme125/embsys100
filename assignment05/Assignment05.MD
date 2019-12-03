@@ -8,7 +8,9 @@
    
    ![Locals View](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/1c.PNG)
    
-2) ![sqrAsm Output](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/2.PNG)
+2) 
+
+![sqrAsm Output](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/2.PNG)
 
 
 3)
