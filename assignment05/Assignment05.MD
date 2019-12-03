@@ -10,7 +10,7 @@
    
 2) 
 
-![sqrAsm Output](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/2.PNG)
+   ![sqrAsm Output](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/2.PNG)
 
 
 3)
