@@ -15,10 +15,11 @@ Copyright   : David Allegre
 
 /* Global Variables and Externals --------------------------------------------*/
 const char* myCstr ="\nThis message is myCstr \n";
-const char* myCstr2 ="\nDividing the input by 2 you get: ";
+const char* mydivCstr ="\nDividing the input by 2 you get: ";
 
 extern int sqrAsm(int val);
 extern int div2Asm(int val);
+extern void swapCharsAsm(Char* xPtr, Char* yPtr);
 
 char clr_scrn[] = { 27, 91, 50, 74, 0 };              // esc[2J
 /* Public variables ----------------------------------------------------------*/
@@ -61,7 +62,13 @@ uint8_t foo;
   int quotient = div2Asm(dividend);
   PrintString("\n\n\n");
 	  
-  
+  //Swap char assembly function
+  char char1 = 'a';
+  char char2 = 'b';
+  swapCharsAsm(&char1, &char2);
+  PrintByte(char1);
+  PrintByte(char2);
+
     
   while (foo) {
     GPIO_ToggleBits(GPIO_PORT_LD2, GPIO_PIN_LD2);
