@@ -56,10 +56,10 @@ uint8_t foo;
   PrintString("\n\n");
 	
   //Divide by 2 Assembly function
-  int dividend = 50;
+  unsigned int dividend = 50;
   PrintString("\nThe dividend is: ");
   Print_uint32(dividend);
-  int quotient = div2Asm(dividend);
+  unsigned int quotient = div2Asm(dividend);
   PrintString("\n\n\n");
 	  
   //Swap char assembly function
