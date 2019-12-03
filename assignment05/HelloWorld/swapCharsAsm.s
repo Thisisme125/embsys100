@@ -37,8 +37,8 @@ Description     : Assembly language function for swapping Chars
     
 /*******************************************************************************
 Function Name   : swapCharsAsm
-Description     : Takes in two Char values, and swaps them
-C Prototype     : void swapCharsAsm(Char* x, Char y);
+Description     : Takes in two Char addresses, and swaps their values
+C Prototype     : void swapCharsAsm(Char* xPtr, Char* yPtr);
                 : Where x and y are char addresses
 Parameters      : R0, R1: Char Address
 Return value    : None
