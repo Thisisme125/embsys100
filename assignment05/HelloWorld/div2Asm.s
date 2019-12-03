@@ -4,7 +4,7 @@ Description     : Assembly language function for square
 *******************************************************************************/   
 
     EXTERN PrintString  // PrintString is defined outside this file.
-    EXTERN mydivCstr       // myCstr defined outside this file.
+    EXTERN mydivCstr    // mydivCstr defined outside this file.
     
     PUBLIC div2Asm      // Exports symbols to other modules
                         // Making div2Asm available to other modules.
