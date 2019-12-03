@@ -3,6 +3,7 @@
    b. R0 is the value of the first argurment in my function, which is the address of my XPtr, and R1 is the value of the second argument, the address of my yPtr.
    
    c.
+   
    ![Locals View](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/a3.PNG)
    
 2) 
