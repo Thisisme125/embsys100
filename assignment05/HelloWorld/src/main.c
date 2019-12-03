@@ -13,8 +13,12 @@ Copyright   : David Allegre
 #include "hw_init.h"
 #include "print.h"
 
+/* Global Variables and Externals --------------------------------------------*/
 const char* myCstr ="\nThis message is myCstr \n";
+const char* myCstr2 ="\nDividing the input by 2 you get: ";
+
 extern int sqrAsm(int val);
+extern int div2Asm(int val);
 
 char clr_scrn[] = { 27, 91, 50, 74, 0 };              // esc[2J
 /* Public variables ----------------------------------------------------------*/
@@ -41,13 +45,22 @@ uint8_t foo;
               __DATE__,
               __TIME__));  
 
+  //Square Assembly function	
   int value = 4;
   int square = sqrAsm(value);
   PrintString("\nThe value I will insert it: ");
   Print_uint32(value);
   PrintString("\nThe square of that value is: ");
   Print_uint32(square);
+  PrintString("\n\n");
+	
+  //Divide by 2 Assembly function
+  int dividend = 50;
+  PrintString("\nThe dividend is: ");
+  Print_uint32(dividend);
+  int quotient = div2Asm(dividend);
   PrintString("\n\n\n");
+	  
   
     
   while (foo) {
