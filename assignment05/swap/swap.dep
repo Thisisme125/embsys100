@@ -5,25 +5,25 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\Exe\swap.out</file>
             <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Obj\swap.pbd</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$PROJ_DIR$\Debug\List\swap.map</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 1 9</file>
+                    <file> 2 9</file>
                 </tool>
             </outputs>
         </file>
@@ -32,15 +32,15 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 3</file>
+                    <file> 4</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 2</file>
+                    <file> 3</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 11</file>
+                    <file> 7</file>
                 </tool>
             </outputs>
         </file>
@@ -55,7 +55,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8 3 6 10 5 7</file>
+                    <file> 6 4 11 10 0 8</file>
                 </tool>
             </inputs>
         </file>
