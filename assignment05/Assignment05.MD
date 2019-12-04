@@ -13,4 +13,9 @@
    ![sqrAsm Output](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/2.PNG)
 
 
-3)
+3) The middle part shows the divide by 2 output.
+
+4) The bottom shows the initial values of Char1 and Char2, and after calling the function, the values are swapped.
+
+
+![Divby2 and swapChar outputs](https://github.com/Thisisme125/embsys100/blob/feature/assignment05/images/3_and_4.PNG)
