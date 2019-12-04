@@ -105398,6 +105398,482 @@
     "scope": null
   },
   {
+    "ID": "c:@myCstr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "myCstr",
+    "location": {
+      "column": "13",
+      "line": "17",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "myCstr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@mydivCstr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "mydivCstr",
+    "location": {
+      "column": "13",
+      "line": "18",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "mydivCstr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sqrAsm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sqrAsm(int)",
+    "location": {
+      "column": "12",
+      "line": "20",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "sqrAsm",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@div2Asm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int div2Asm(int)",
+    "location": {
+      "column": "12",
+      "line": "21",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "div2Asm",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@swapCharsAsm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void swapCharsAsm(char *, char *)",
+    "location": {
+      "column": "13",
+      "line": "22",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "swapCharsAsm",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@clr_scrn",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "clr_scrn",
+    "location": {
+      "column": "6",
+      "line": "24",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "clr_scrn",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@timer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "timer",
+    "location": {
+      "column": "15",
+      "line": "26",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "timer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@stringbuffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "stringbuffer",
+    "location": {
+      "column": "1",
+      "line": "27",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "stringbuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "29",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "36",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1348@F@main@foo",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "foo",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "foo",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1707@F@main@value",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "value",
+    "location": {
+      "column": "7",
+      "line": "50",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "value",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1725@F@main@square",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "square",
+    "location": {
+      "column": "7",
+      "line": "51",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "square",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1968@F@main@dividend",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dividend",
+    "location": {
+      "column": "16",
+      "line": "59",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "dividend",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2065@F@main@quotient",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "quotient",
+    "location": {
+      "column": "16",
+      "line": "62",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "quotient",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2202@F@main@char1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "char1",
+    "location": {
+      "column": "8",
+      "line": "67",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "char1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2223@F@main@char2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "char2",
+    "location": {
+      "column": "8",
+      "line": "68",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "char2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "98",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "103",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@336@macro@__PRINT_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__PRINT_H",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "__PRINT_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintHex",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintHex(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintHex",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintHex",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintHex(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintHex",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Print_uint32",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Print_uint32(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "Print_uint32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Print_uint32",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Print_uint32(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "Print_uint32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintByte(char)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintByte(char)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintString(char *)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PrintString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PrintString(char *)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PrintString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@stringbuffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "stringbuffer",
+    "location": {
+      "column": "13",
+      "line": "26",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "stringbuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@961@macro@_DBG_PRINTX_ARG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DBG_PRINTX_ARG",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "_DBG_PRINTX_ARG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@1041@macro@PRINTBUFMAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRINTBUFMAX",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PRINTBUFMAX",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@1066@macro@RETAILMSG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RETAILMSG",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "RETAILMSG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@1201@macro@PRINT_DEFINEBUFFER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRINT_DEFINEBUFFER",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PRINT_DEFINEBUFFER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@1262@macro@PRINT_BUFFER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRINT_BUFFER",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+    },
+    "name": "PRINT_BUFFER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stdio.h@99@macro@_STDIO",
     "What": "MacroDef",
     "defdec": "Def",
@@ -105846,380 +106322,30 @@
     "scope": null
   },
   {
-    "ID": "c:@myCstr",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "myCstr",
-    "location": {
-      "column": "13",
-      "line": "16",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "myCstr",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sqrAsm",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int sqrAsm(int)",
-    "location": {
-      "column": "12",
-      "line": "17",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "sqrAsm",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@clr_scrn",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "clr_scrn",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "clr_scrn",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@timer",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "timer",
-    "location": {
-      "column": "15",
-      "line": "21",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "timer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@stringbuffer",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "stringbuffer",
-    "location": {
-      "column": "1",
-      "line": "22",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "stringbuffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "24",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void main(void)",
-    "location": {
-      "column": "6",
-      "line": "31",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1120@F@main@foo",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "foo",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "foo",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1448@F@main@value",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "value",
-    "location": {
-      "column": "7",
-      "line": "44",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "value",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1466@F@main@square",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "square",
-    "location": {
-      "column": "7",
-      "line": "45",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "square",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void delay(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "70",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SystemInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SystemInit(void)",
-    "location": {
-      "column": "6",
-      "line": "75",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\src\\main.c"
-    },
-    "name": "SystemInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@336@macro@__PRINT_H",
+    "ID": "c:hw_init.h@346@macro@__HW_INIT_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__PRINT_H",
+    "display": "__HW_INIT_H",
     "location": {
       "column": "9",
       "line": "10",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\hw_init.h"
     },
-    "name": "__PRINT_H",
+    "name": "__HW_INIT_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@PrintHex",
+    "ID": "c:@F@Hw_init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void PrintHex(uint32_t)",
+    "display": "void Hw_init(void)",
     "location": {
       "column": "6",
-      "line": "16",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
+      "line": "14",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\hw_init.h"
     },
-    "name": "PrintHex",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintHex",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintHex(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "16",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintHex",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Print_uint32",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Print_uint32(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "Print_uint32",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Print_uint32",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Print_uint32(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "Print_uint32",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintByte(char)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintByte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintByte(char)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintByte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintString",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintString(char *)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintString",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PrintString",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PrintString(char *)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PrintString",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@stringbuffer",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "stringbuffer",
-    "location": {
-      "column": "13",
-      "line": "26",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "stringbuffer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@961@macro@_DBG_PRINTX_ARG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DBG_PRINTX_ARG",
-    "location": {
-      "column": "9",
-      "line": "28",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "_DBG_PRINTX_ARG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1041@macro@PRINTBUFMAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRINTBUFMAX",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PRINTBUFMAX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1066@macro@RETAILMSG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RETAILMSG",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "RETAILMSG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1201@macro@PRINT_DEFINEBUFFER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRINT_DEFINEBUFFER",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PRINT_DEFINEBUFFER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:print.h@1262@macro@PRINT_BUFFER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRINT_BUFFER",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\print.h"
-    },
-    "name": "PRINT_BUFFER",
+    "name": "Hw_init",
     "origin": "user_include",
     "scope": null
   },
@@ -106305,34 +106431,6 @@
     },
     "name": "__data_size_t",
     "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:hw_init.h@346@macro@__HW_INIT_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__HW_INIT_H",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\hw_init.h"
-    },
-    "name": "__HW_INIT_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Hw_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Hw_init(void)",
-    "location": {
-      "column": "6",
-      "line": "14",
-      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\HelloWorld\\inc\\hw_init.h"
-    },
-    "name": "Hw_init",
-    "origin": "user_include",
     "scope": null
   },
   {

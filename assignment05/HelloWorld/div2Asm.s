@@ -57,5 +57,4 @@ div2Asm
     MOV R1, R0          // R1 = R0
     MOV R0, R1, LSR#1   // Shift R1 by 1 to the right (this divides by 2 in binary), then store value to R0
     BX LR               // return (with function result in R0)
-
-END
+    END

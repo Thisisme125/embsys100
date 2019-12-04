@@ -2157,6 +2157,12 @@
         </file>
     </group>
     <file>
+        <name>$PROJ_DIR$\div2Asm.s</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\sqrAsm.s</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\swapCharsAsm.s</name>
     </file>
 </project>

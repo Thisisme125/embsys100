@@ -44,20 +44,13 @@ Parameters      : R0, R1: Char Address
 Return value    : None
 *******************************************************************************/  
   
-swap2Asm
-    MOVB R2, [R0]        // Dereference the address in R0, and copy contents to R2
-    MOVB R0, [R1]        // Deference the address of R1, and copy value into R0
-    MOVB R1, R2          // Copy Contents of R2 into R1
-END
 
-/* OR
 
-swap2Asm
-    MOVB R0, [R0]        // Dereference address stored in R0 and copy value to R0
-    MOVB R2, R0          // Copy value of R0 into R2
-    MOVB R1, [R1]        // Dereference address stored in R1 and copy value to R1
-    MOVB R0, R1          // Copy of R1 value to R0
-    MOVB R1, R2          // Copy contents of R2 into R1
-END
+swapCharsAsm
+    LDRB R2, [R0]        // Dereference address stored in R0 and copy value to R0
+    LDRB R3, [R1]          // Copy value of R0 into R2
+    STRB R3, [R0]        // Dereference address stored in R1 and copy value to R1
+    STRB R2, [R1]          // Copy of R1 value to R0
+    BX LR
+    END
 
-*/

@@ -14,13 +14,27 @@
     "scope": null
   },
   {
+    "ID": "c:@F@swap_effective",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void swap_effective(int *, int *)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
+    },
+    "name": "swap_effective",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "4",
+      "line": "5",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
     },
     "name": "main",
@@ -28,13 +42,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@65@F@main@x",
+    "ID": "c:main.c@103@F@main@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "6",
-      "line": "6",
+      "line": "7",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
     },
     "name": "x",
@@ -42,13 +56,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@78@F@main@y",
+    "ID": "c:main.c@116@F@main@y",
     "What": "Variable",
     "defdec": "Def",
     "display": "y",
     "location": {
       "column": "6",
-      "line": "7",
+      "line": "8",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
     },
     "name": "y",
@@ -56,13 +70,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@91@F@main@xPtr",
+    "ID": "c:main.c@129@F@main@xPtr",
     "What": "Variable",
     "defdec": "Def",
     "display": "xPtr",
     "location": {
       "column": "7",
-      "line": "8",
+      "line": "9",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
     },
     "name": "xPtr",
@@ -70,13 +84,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@109@F@main@yPtr",
+    "ID": "c:main.c@147@F@main@yPtr",
     "What": "Variable",
     "defdec": "Def",
     "display": "yPtr",
     "location": {
       "column": "7",
-      "line": "9",
+      "line": "10",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
     },
     "name": "yPtr",
@@ -90,7 +104,7 @@
     "display": "void swapPtr(int **, int **)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "17",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
     },
     "name": "swapPtr",
@@ -98,16 +112,44 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@214@F@swapPtr@tempPtr",
+    "ID": "c:main.c@278@F@swapPtr@tempPtr",
     "What": "Variable",
     "defdec": "Def",
     "display": "tempPtr",
     "location": {
       "column": "8",
-      "line": "17",
+      "line": "19",
       "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
     },
     "name": "tempPtr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@swap_effective",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void swap_effective(int *, int *)",
+    "location": {
+      "column": "6",
+      "line": "24",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
+    },
+    "name": "swap_effective",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@386@F@swap_effective@temp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "temp",
+    "location": {
+      "column": "7",
+      "line": "26",
+      "path": "C:\\Users\\thisi\\Documents\\GitHub\\embsys100\\assignment05\\swap\\main.c"
+    },
+    "name": "temp",
     "origin": "project_file",
     "scope": null
   }

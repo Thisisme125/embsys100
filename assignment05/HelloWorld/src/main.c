@@ -19,7 +19,7 @@ const char* mydivCstr ="\nDividing the input by 2 you get: ";
 
 extern int sqrAsm(int val);
 extern int div2Asm(int val);
-extern void swapCharsAsm(Char* xPtr, Char* yPtr);
+extern void swapCharsAsm(char* xPtr, char* yPtr);
 
 char clr_scrn[] = { 27, 91, 50, 74, 0 };              // esc[2J
 /* Public variables ----------------------------------------------------------*/
@@ -60,14 +60,22 @@ uint8_t foo;
   PrintString("\nThe dividend is: ");
   Print_uint32(dividend);
   unsigned int quotient = div2Asm(dividend);
+  Print_uint32(quotient);
   PrintString("\n\n\n");
 	  
   //Swap char assembly function
   char char1 = 'a';
   char char2 = 'b';
-  swapCharsAsm(&char1, &char2);
+  PrintString("Char1 was: ");
   PrintByte(char1);
+  PrintString("\nChar2 was: ");
   PrintByte(char2);
+  swapCharsAsm(&char1, &char2);
+  PrintString("\n\nChar1 is now: ");
+  PrintByte(char1);
+  PrintString("\nChar2 is now: ");
+  PrintByte(char2);
+  PrintString("\n\n\n");
 
     
   while (foo) {
