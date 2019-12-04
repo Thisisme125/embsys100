@@ -1,13 +1,13 @@
 /*******************************************************************************
-File name       : div2Asm.s
+File name       : aqrAsm.s
 Description     : Assembly language function for square
 *******************************************************************************/   
 
     EXTERN PrintString  // PrintString is defined outside this file.
-    EXTERN mydivCstr    // mydivCstr defined outside this file.
+    EXTERN myCstr       // myCstr defined outside this file.
     
-    PUBLIC div2Asm      // Exports symbols to other modules
-                        // Making div2Asm available to other modules.
+    PUBLIC sqrAsm       // Exports symbols to other modules
+                        // Making sqrAsm available to other modules.
     
 // Code is split into logical sections using the SECTION directive.
 // Source: http://ftp.iar.se/WWWfiles/arm/webic/doc/EWARM_AssemblerReference.ENU.pdf
@@ -39,22 +39,23 @@ Description     : Assembly language function for square
                         // Subsequent instructions are assembled as THUMB instructions
     
 /*******************************************************************************
-Function Name   : div2Asm
+Function Name   : sqrAsm
 Description     : Calls C code to print a string; 
-                  divides input value by 2
-C Prototype     : int div2Asm(val)
-                : Where val is the value to half
-Parameters      : R0: integer value
-Return value    : R0 / 2
+                  computes the square of its input argument
+C Prototype     : int sqrAsm(val)
+                : Where val is the value to calculate it's square
+Parameters      : R0: Address of val
+Return value    : R0
 *******************************************************************************/  
   
-div2Asm
+sqrAsm
     PUSH {R0,LR}        // save the input argument and return address
-    LDR R0,=mydivCstr   // load address of global string value to R0
-    LDR R0,[R0]         // dereference the address, and load that value into R0
+    LDR R0,=myCstr      // load (global) address of address of string into R0
+    LDR R0,[R0]         // load address of string into R0
     BL  PrintString     // call PrintString to print the string
     POP {R0,LR}         // Restore R0 and LR
     MOV R1, R0          // R1 = R0
-    MOV R0, R1, LSR#1   // Shift R1 by 1 to the right (this divides by 2 in binary), then store value to R0
-    BX LR               // return to main function
+    MUL R0, R1, R0      // R0 = R0 * R1 
+    BX LR               // return (with function result in R0)
+
     END
